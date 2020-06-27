@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>A simple calculator</title>
+</head>
+<body>
+    <div class="main">
+<form name="myform">
+    <input class= "result" id = "result" type="text">
+</form>
+<table>
+    <tr>
+        <td><input type="button" class="button" value="0"></td>
+        <td><input type="button" class="button" value="00"></td>
+        <td><input type="button" class="button" value="*"></td>
+        <td><input type="button" class="button" value="%"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button gray number" value="7" onclick="insertNum(7)"></td>
+        <td><input type="button" class="button gray number" value="8" onclick="insertNum(8)"></td>
+        <td><input type="button" class="button gray number" value="9" onclick="insertNum(9)"></td>
+        <td><input type="button" class="button" value="X"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button gray number" value="4" onclick="insertNum(4)"></td>
+        <td><input type="button" class="button gray number" value="5" onclick="insertNum(5)"></td>
+        <td><input type="button" class="button gray number" value="6" onclick="insertNum(6)"></td>
+        <td><input type="button" class="button blue symbol" value="-"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button gray number" value="1" onclick="insertNum(1)"></td>
+        <td><input type="button" class="button gray number" value="2" onclick="insertNum(2)"></td>
+        <td><input type="button" class="button gray number" value="3" onclick="insertNum(3)"></td>
+        <td><input type="button" class="button blue symbol" value="+"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class="button gray number" value="C"></td>
+        <td><input type="button" class="button gray number" value="0" onclick="insertNum(0)"></td>
+        <td><input type="button" class="button gray number" value="."></td>
+        <td><input type="button" class="button blue symbol" value="="></td>
+    </tr>
+
+</table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
